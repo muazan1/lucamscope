@@ -1,6 +1,6 @@
 <?php
 
-namespace Database\Seeders\Lucamscope;
+namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
@@ -15,6 +15,7 @@ class LucamScopeTempSeeder extends Seeder
      *
      * @return void
      */
+
     public function run()
     {
         $jeffery = User::factory(1)->create([

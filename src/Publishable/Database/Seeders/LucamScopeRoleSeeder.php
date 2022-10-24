@@ -1,11 +1,14 @@
 <?php
 
-namespace Database\Seeders\Lucamscope;
+namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use DB;
+
 use Illuminate\Database\Seeder;
 
-class LucamScopeDummyDataSeeder extends Seeder
+class LucamScopeRoleSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,6 +17,9 @@ class LucamScopeDummyDataSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('roles')->insert([
+            'id' => 3,
+            'name' => 'temp',
+        ]);
     }
 }
