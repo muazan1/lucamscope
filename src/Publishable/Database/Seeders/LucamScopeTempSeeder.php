@@ -17,10 +17,10 @@ class LucamScopeTempSeeder extends Seeder
      */
     public function run()
     {
-        $jose = User::factory(1)->create([
-            'first_name' => 'Jose',
-            'last_name' => 'Buttler',
-            'email' => 'jose@admin.com',
+        $jeffery = User::factory(1)->create([
+            'first_name' => 'Jeffery',
+            'last_name' => 'Way',
+            'email' => 'jeffery@admin.com',
             'password' =>
                 '$2a$12$k4pz5YdA6qIHHWKeoahDguFn6iOGXYDBRlYV3Q1HCgYY/6TwVWU5y',
             'role_id' => 3,
