@@ -1,0 +1,17 @@
+{
+    "name": "sty/lucamscope",
+    "description": "Lucam Scope Laravel Package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sty\\Lucamscope\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Muazan",
+            "email": "muazan.stallyons@gmail.com"
+        }
+    ],
+    "require": {}
+}
