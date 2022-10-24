@@ -8,6 +8,8 @@ use Illuminate\Database\Seeder;
 
 use App\Models\User;
 
+use Illuminate\Support\Str;
+
 class LucamScopeTempSeeder extends Seeder
 {
     /**
@@ -19,6 +21,7 @@ class LucamScopeTempSeeder extends Seeder
     public function run()
     {
         $jeffery = User::create([
+            'uuid' => Str::uuid(),
             'first_name' => 'Jeffery',
             'last_name' => 'Way',
             'email' => 'jeffery@admin.com',
@@ -28,6 +31,7 @@ class LucamScopeTempSeeder extends Seeder
         ]);
 
         $taylor = User::create([
+            'uuid' => Str::uuid(),
             'first_name' => 'Taylor',
             'last_name' => 'Otwell',
             'email' => 'taylor@admin.com',
