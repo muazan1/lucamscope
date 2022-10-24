@@ -14,7 +14,7 @@ class LucamScopeProvider extends ServiceProvider
 
     public function register()
     {
-        dd('Muazan');
+        //
     }
 
     /**
