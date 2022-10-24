@@ -18,21 +18,21 @@ class LucamScopeTempSeeder extends Seeder
 
     public function run()
     {
-        $jeffery = User::factory(1)->create([
+        $jeffery = User::create([
             'first_name' => 'Jeffery',
             'last_name' => 'Way',
             'email' => 'jeffery@admin.com',
             'password' =>
-                '$2a$12$k4pz5YdA6qIHHWKeoahDguFn6iOGXYDBRlYV3Q1HCgYY/6TwVWU5y',
+                '$2a$12$k4pz5YdA6qIHHWKeoahDguFn6iOGXYDBRlYV3Q1HCgYY/6TwVWU5y', // password
             'role_id' => 3,
         ]);
 
-        $taylor = User::factory(1)->create([
+        $taylor = User::create([
             'first_name' => 'Taylor',
             'last_name' => 'Otwell',
             'email' => 'taylor@admin.com',
             'password' =>
-                '$2a$12$k4pz5YdA6qIHHWKeoahDguFn6iOGXYDBRlYV3Q1HCgYY/6TwVWU5y',
+                '$2a$12$k4pz5YdA6qIHHWKeoahDguFn6iOGXYDBRlYV3Q1HCgYY/6TwVWU5y', // password
             'role_id' => 3,
         ]);
     }
